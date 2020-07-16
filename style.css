@@ -20,7 +20,7 @@ iframe{
     /* background-color: lightpink; */
     display:flex;
     margin-left:150px;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     flex-direction: column;
 }
