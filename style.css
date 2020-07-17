@@ -17,7 +17,7 @@ iframe{
 }
 
 #content{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     display:flex;
     margin-left:150px;
     height: 100%;
