@@ -21,7 +21,7 @@ iframe{
     display:flex;
     margin-left:150px;
     height: 100%;
-    width: 90%;
+    /* width: 90vh; */
     text-align: center;
     flex-direction: column;
 }
