@@ -73,4 +73,8 @@ h2{
         width: 100%;
         height: auto;
     }
+    .spotify{
+        height: 75px;
+        /* height:100%; */
+    }
   }
