@@ -16,6 +16,18 @@ iframe{
     width: 10%;
 }
 
+#projects-container, .navbox{
+    background-color: black;
+    color:white;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.navbox:hover{
+    background-color: grey;
+
+}
+
 #content{
     /* background-color: lightpink; */
     display:flex;
@@ -43,6 +55,14 @@ p{
 
 img{
     height: 300px;
+}
+
+#border{
+    position: absolute;
+    height: 650px;
+    display:inline-block;
+    margin-left: 175px;
+    margin-top: -75px;
 }
 
 h2{
