@@ -9,32 +9,46 @@
     <!-- Home page for the website. -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <script src="script.js"></script>
   <body>
       <div id="info">
         <h2>ckk</h2>
-        <img id="compass" style="width:40px;height:40px;" src="assets/compass.jpg">
+        <div id="navArea">
+          <img id="compass" style="width:40px;height:40px;" src="assets/compass.jpg">
+          <div id="nav" style="display:none">
+            <div  id="projects">
+              <div class="navbox">past projects</div>
+              <div id="projects-container" style="display:none">
+                <a href="https://blackowned-restaurants.netlify.app/index.html"><div class="navbox">map of black-owned restaurants</div></a>
+                <a href="https://peaceful-colden-008870.netlify.app/survey.html"><div class="navbox">SAEF legal aid</div></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>  
 
       <div id="content">
-          
+          <!-- <img id="border" src="assets/border.png"> -->
           <div class = "post">
             <img id="me" src="assets/selfie.jpg">
             <figcaption>this is claire, hello</figcaption>
+          </div>
+
+          <div>
+            <iframe class="spotify" class= "post" src="https://open.spotify.com/embed/track/7Bo0xLcXWx3pdhqwthqGaz" width="300" height="83" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
 
           <div >
             <p class="post">"He thought her beautiful, believed her impeccably wise; dreamed of her, wrote poems to her, which, ignoring the subject, she corrected in red ink." - Virginia Woolf</p>
           </div>
           
-          <div>
+          <!-- <div>
             <h3>projects: </h3>
             
             <ul>
             <li>I made a website that can help you find Black-owned restaurants in NYC to support this summer: <a href="https://blackowned-restaurants.netlify.app/index.html">here</a></li>
             <li>I also worked on this legal aid website this summer: <a href="https://peaceful-colden-008870.netlify.app/survey.html">here</a></li>
             </ul>
-          </div>
+          </div> -->
 
           <div>
             <iframe class = "spotify" class = "post" src="https://open.spotify.com/embed/playlist/5H82IU8pbEviuqw0dZNvt2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -42,7 +56,7 @@
 
           
           
-          <div class="post">
+          <!-- <div class="post">
             <p style="margin: auto;">Today's reading list:</p>
             <ul>
               <li>Just Kids by Patti Smith</li>
@@ -50,17 +64,15 @@
               <li>Wild Game by Adrienne Brodeur</li>
               <li>Sula by Toni Morrison</li>
             </ul>
-          </div>
+          </div> -->
 
           <div class="post">
               <img src="assets/bariloche.JPG" alt="man looking out over mountains">
               <figcaption>bariloche, argentina, may 2019</figcaption>
           </div>
 
-          <div>
-            <iframe class="spotify" class= "post" src="https://open.spotify.com/embed/track/7Bo0xLcXWx3pdhqwthqGaz" width="300" height="83" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
         
 
       </div>
   </body>
+  <script src="script.js"></script>
